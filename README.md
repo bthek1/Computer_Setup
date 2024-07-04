@@ -8,43 +8,7 @@ Learning](https://bthek1.github.io/Computer_Setup/)
 
 - OneDrive
 
-## Change Settings in `Turn Windows features on or off`
-
-Turn on: - Virtual Machine Platform - Windows Hypervisor Platform -
-Windows Subsystem for Linux
-
-## Download WSL - Windows Subsystem for Linux
-
-- goto powershell
-
-``` sh
-wsl --install
-```
-
-If there is error with wsl
-
-    Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/microsoft/WSL/master/triage/install-latest-wsl.ps1" -OutFile install-latest-wsl.ps1
-    Set-ExecutionPolicy Bypass -Scope Process -Force
-    .\install-latest-wsl.ps1
-
-- o see a list of available Linux distributions available for download
-  through the online store
-
-``` sh
-wsl -l -o
-```
-
-- to download a Linux distribution
-
-``` sh
-wsl --install -d <Distribution Name>
-```
-
-- to remove a distribution
-
-``` sh
-wsl --unregister <Distribution Name>
-```
+## [Install WSL](https://bthek1.github.io/Computer_Setup/wsl_setup.html)
 
 ## Install Git
 
